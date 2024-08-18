@@ -7,10 +7,15 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable {
+    
+    // MARK: - Properties
+
+    var output: HomeViewOutput?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemBlue
     }
 
 }
