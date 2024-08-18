@@ -1,0 +1,15 @@
+//
+//  Assets.swift
+//  JobSearch
+//
+//  Created by Игорь Пустыльник on 08.08.2024.
+//
+
+import Foundation
+import UIKit
+
+extension UIImage {
+    enum Icons {
+        static let add: UIImage = .add
+    }
+}
