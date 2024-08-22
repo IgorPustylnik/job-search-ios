@@ -6,10 +6,3 @@
 //
 
 import Foundation
-import UIKit
-
-extension UIImage {
-    enum Icons {
-        static let add: UIImage = .add
-    }
-}

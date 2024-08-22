@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = HomeModuleConfigurator().configure()
+        window.rootViewController = JSTabBarController()
         self.window = window
         self.window?.makeKeyAndVisible()
     }
