@@ -1,0 +1,5 @@
+// MARK: - TabBar
+"Home"="Главная";
+"Messages"="Сообщения";
+"Favorites"="Избранное";
+"Notifications"="Уведомления";
