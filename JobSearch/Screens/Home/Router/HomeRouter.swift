@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+final class HomeRouter: HomeRouterInput {
+    
+    // MARK: - Properties
+
+    weak var view: ModuleTransitionable?
+}

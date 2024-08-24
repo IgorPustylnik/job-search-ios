@@ -8,17 +8,20 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
     var window: UIWindow?
+    var coordinator: Coordinator?
 
     func scene(_ scene: UIScene,
                willConnectTo session: UISceneSession,
                options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = JSTabBarController()
-        self.window = window
-        self.window?.makeKeyAndVisible()
+        window = UIWindow(windowScene: windowScene)
+        coordinator = JSCoordinator(
+            navigationController: UINavigationController(),
+            window: window
+        )
+
+        coordinator?.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -35,5 +38,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneDidEnterBackground(_ scene: UIScene) {
     }
-
 }
