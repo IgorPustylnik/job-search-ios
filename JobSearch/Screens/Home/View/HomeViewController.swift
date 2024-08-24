@@ -10,12 +10,19 @@ import UIKit
 class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable {
     
     // MARK: - Properties
-
+    
+    private var homeView = HomeView()
+    
     var output: HomeViewOutput?
+    
+    // MARK: - Lifecycle
+    
+    override func loadView() {
+        view = homeView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBlue
     }
 
 }
