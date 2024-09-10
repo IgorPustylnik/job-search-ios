@@ -22,8 +22,11 @@ final class JSCoordinator: Coordinator {
 
     func start() {
         configureWindow()
-        // TODO: - check if onboarding is complete
-        true ? showMainFlow() : showOnboardingFlow()
+//        if UserDefaults.standard.bool(forKey: "onboardingComplete") {
+//            showMainFlow(animated: false)
+//        } else {
+        showOnboardingFlow()
+//        }
     }
 
     private func configureWindow() {
@@ -31,11 +34,31 @@ final class JSCoordinator: Coordinator {
         window?.makeKeyAndVisible()
     }
 
-    private func showMainFlow() {
+    private func showMainFlow(animated: Bool) {
         let vc = JSTabBarController()
-        navigationController.setViewControllers([vc], animated: false)
+
+        guard let window else { return }
+        UIView.transition(with: window,
+                          duration: 0.5,
+                          options: .transitionCrossDissolve,
+                          animations: {
+                              self.navigationController.setViewControllers([vc], animated: false)
+                          },
+                          completion: nil)
     }
 
     private func showOnboardingFlow() {
+        let vc = OnboardingModuleConfigurator().configure(output: self)
+        navigationController.setViewControllers([vc], animated: false)
     }
+}
+
+extension JSCoordinator: OnboardingModuleOutput {
+
+    func completeOnboarding() {
+        print("complete")
+        UserDefaults.standard.setValue(true, forKey: "onboardingComplete")
+        showMainFlow(animated: true)
+    }
+
 }

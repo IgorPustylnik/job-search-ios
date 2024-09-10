@@ -26,21 +26,42 @@
 		554192212C7784AD00A9ED6A /* JSCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192202C7784AD00A9ED6A /* JSCoordinator.swift */; };
 		554192232C7789E000A9ED6A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192222C7789E000A9ED6A /* HomeView.swift */; };
 		554192272C79DD3F00A9ED6A /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192262C79DD3F00A9ED6A /* DataStorage.swift */; };
-		554192782C7A46B000A9ED6A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554192712C7A46B000A9ED6A /* Poppins-Bold.ttf */; };
-		554192792C7A46B000A9ED6A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554192722C7A46B000A9ED6A /* Poppins-Medium.ttf */; };
-		5541927A2C7A46B000A9ED6A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554192732C7A46B000A9ED6A /* Poppins-Regular.ttf */; };
-		5541927B2C7A46B000A9ED6A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554192742C7A46B000A9ED6A /* Poppins-SemiBold.ttf */; };
-		5541927C2C7A46B000A9ED6A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192762C7A46B000A9ED6A /* Fonts.swift */; };
+		5541924F2C7A1A7A00A9ED6A /* OnboardingModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192402C7A1A7A00A9ED6A /* OnboardingModuleConfigurator.swift */; };
+		554192502C7A1A7A00A9ED6A /* OnboardingPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192422C7A1A7A00A9ED6A /* OnboardingPageModel.swift */; };
+		554192512C7A1A7A00A9ED6A /* OnboardingPresenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192432C7A1A7A00A9ED6A /* OnboardingPresenterModel.swift */; };
+		554192522C7A1A7A00A9ED6A /* OnboardingModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192462C7A1A7A00A9ED6A /* OnboardingModuleInput.swift */; };
+		554192532C7A1A7A00A9ED6A /* OnboardingModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192472C7A1A7A00A9ED6A /* OnboardingModuleOutput.swift */; };
+		554192542C7A1A7A00A9ED6A /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192482C7A1A7A00A9ED6A /* OnboardingPresenter.swift */; };
+		554192552C7A1A7A00A9ED6A /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541924A2C7A1A7A00A9ED6A /* OnboardingRouter.swift */; };
+		554192562C7A1A7A00A9ED6A /* OnboardingRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541924B2C7A1A7A00A9ED6A /* OnboardingRouterInput.swift */; };
+		5541925D2C7A2AF500A9ED6A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541925C2C7A2AF500A9ED6A /* OnboardingViewController.swift */; };
+		554192612C7A3D1300A9ED6A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192602C7A3D1300A9ED6A /* OnboardingView.swift */; };
+		554192652C7A3F3600A9ED6A /* OnboardingViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192642C7A3F3600A9ED6A /* OnboardingViewDelegate.swift */; };
+		554192672C7A412900A9ED6A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192662C7A412900A9ED6A /* LabelFactory.swift */; };
+		554192822C7A490700A9ED6A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5541927D2C7A490700A9ED6A /* Poppins-Bold.ttf */; };
+		554192832C7A490700A9ED6A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5541927E2C7A490700A9ED6A /* Poppins-Medium.ttf */; };
+		554192842C7A490700A9ED6A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5541927F2C7A490700A9ED6A /* Poppins-Regular.ttf */; };
+		554192852C7A490700A9ED6A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554192802C7A490700A9ED6A /* Poppins-SemiBold.ttf */; };
+		554192872C7A52C400A9ED6A /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192862C7A52C400A9ED6A /* ButtonFactory.swift */; };
+		554192892C7AB1C000A9ED6A /* OnboardingViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554192882C7AB1C000A9ED6A /* OnboardingViewOutput.swift */; };
+		5541928B2C7AB1CB00A9ED6A /* OnboardingViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5541928A2C7AB1CB00A9ED6A /* OnboardingViewInput.swift */; };
 		558AE7C12C64CEC70031E58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7C02C64CEC70031E58D /* AppDelegate.swift */; };
 		558AE7C32C64CEC70031E58D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7C22C64CEC70031E58D /* SceneDelegate.swift */; };
 		558AE7CA2C64CECA0031E58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558AE7C92C64CECA0031E58D /* Assets.xcassets */; };
 		558AE7CD2C64CECA0031E58D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 558AE7CC2C64CECA0031E58D /* Base */; };
 		558AE7DA2C64D0230031E58D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7D82C64D0230031E58D /* Strings.swift */; };
 		558AE7DD2C64D03C0031E58D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7DC2C64D03C0031E58D /* Assets.swift */; };
+		558AE7E02C64D0530031E58D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7DF2C64D0530031E58D /* Fonts.swift */; };
 		558AE7E32C64D0710031E58D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AE7E22C64D0710031E58D /* Colors.swift */; };
+		5597A69D2C8C56E8006DE189 /* PageControlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597A69C2C8C56E8006DE189 /* PageControlFactory.swift */; };
+		55D4A7BA2C8986D5000100CE /* OnboardingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4A7B92C8986D5000100CE /* OnboardingCollectionView.swift */; };
+		55D4A7BC2C898767000100CE /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4A7BB2C898767000100CE /* OnboardingCollectionViewCell.swift */; };
+		55D4A7BF2C8AF791000100CE /* JSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4A7BE2C8AF791000100CE /* JSPageControl.swift */; };
+		7D4499863CD90A783038CCC2 /* Pods_JobSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA22C568047D320CA668DD47 /* Pods_JobSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3B8B6BF12D86C57105D1D0 /* Pods-JobSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearch.debug.xcconfig"; path = "Target Support Files/Pods-JobSearch/Pods-JobSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		554191EA2C7186BC00A9ED6A /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
 		554191F72C7187C700A9ED6A /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
 		554191F92C7187D800A9ED6A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -61,11 +82,25 @@
 		554192202C7784AD00A9ED6A /* JSCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCoordinator.swift; sourceTree = "<group>"; };
 		554192222C7789E000A9ED6A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		554192262C79DD3F00A9ED6A /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
-		554192712C7A46B000A9ED6A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		554192722C7A46B000A9ED6A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		554192732C7A46B000A9ED6A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		554192742C7A46B000A9ED6A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		554192762C7A46B000A9ED6A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		554192402C7A1A7A00A9ED6A /* OnboardingModuleConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingModuleConfigurator.swift; sourceTree = "<group>"; };
+		554192422C7A1A7A00A9ED6A /* OnboardingPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPageModel.swift; sourceTree = "<group>"; };
+		554192432C7A1A7A00A9ED6A /* OnboardingPresenterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPresenterModel.swift; sourceTree = "<group>"; };
+		554192462C7A1A7A00A9ED6A /* OnboardingModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingModuleInput.swift; sourceTree = "<group>"; };
+		554192472C7A1A7A00A9ED6A /* OnboardingModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingModuleOutput.swift; sourceTree = "<group>"; };
+		554192482C7A1A7A00A9ED6A /* OnboardingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		5541924A2C7A1A7A00A9ED6A /* OnboardingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
+		5541924B2C7A1A7A00A9ED6A /* OnboardingRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingRouterInput.swift; sourceTree = "<group>"; };
+		5541925C2C7A2AF500A9ED6A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		554192602C7A3D1300A9ED6A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		554192642C7A3F3600A9ED6A /* OnboardingViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewDelegate.swift; sourceTree = "<group>"; };
+		554192662C7A412900A9ED6A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		5541927D2C7A490700A9ED6A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5541927E2C7A490700A9ED6A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5541927F2C7A490700A9ED6A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		554192802C7A490700A9ED6A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		554192862C7A52C400A9ED6A /* ButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
+		554192882C7AB1C000A9ED6A /* OnboardingViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewOutput.swift; sourceTree = "<group>"; };
+		5541928A2C7AB1CB00A9ED6A /* OnboardingViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewInput.swift; sourceTree = "<group>"; };
 		558AE7BD2C64CEC70031E58D /* JobSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AE7C02C64CEC70031E58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558AE7C22C64CEC70031E58D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +109,14 @@
 		558AE7CE2C64CECA0031E58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558AE7D82C64D0230031E58D /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		558AE7DC2C64D03C0031E58D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		558AE7DF2C64D0530031E58D /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		558AE7E22C64D0710031E58D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5597A69C2C8C56E8006DE189 /* PageControlFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlFactory.swift; sourceTree = "<group>"; };
+		55D4A7B92C8986D5000100CE /* OnboardingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionView.swift; sourceTree = "<group>"; };
+		55D4A7BB2C898767000100CE /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		55D4A7BE2C8AF791000100CE /* JSPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSPageControl.swift; sourceTree = "<group>"; };
+		60D79FF270B0F26D161831AF /* Pods-JobSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearch.release.xcconfig"; path = "Target Support Files/Pods-JobSearch/Pods-JobSearch.release.xcconfig"; sourceTree = "<group>"; };
+		AA22C568047D320CA668DD47 /* Pods_JobSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +124,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4499863CD90A783038CCC2 /* Pods_JobSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50F8E3AC442376970E1283AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA22C568047D320CA668DD47 /* Pods_JobSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		554191E92C7186AA00A9ED6A /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +150,7 @@
 		554191EC2C7186C900A9ED6A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5541924E2C7A1A7A00A9ED6A /* Onboarding */,
 				554191ED2C7186F700A9ED6A /* Home */,
 				554191EE2C71873D00A9ED6A /* Messages */,
 				554191F02C71875500A9ED6A /* Favorites */,
@@ -199,6 +251,7 @@
 			children = (
 				5541921C2C7719EE00A9ED6A /* Factories */,
 				5541920D2C718B4200A9ED6A /* TabBar */,
+				55D4A7BD2C8AF76B000100CE /* PageControl */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -216,6 +269,9 @@
 		5541921C2C7719EE00A9ED6A /* Factories */ = {
 			isa = PBXGroup;
 			children = (
+				554192662C7A412900A9ED6A /* LabelFactory.swift */,
+				554192862C7A52C400A9ED6A /* ButtonFactory.swift */,
+				5597A69C2C8C56E8006DE189 /* PageControlFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -244,24 +300,84 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		554192752C7A46B000A9ED6A /* Poppins */ = {
+		554192412C7A1A7A00A9ED6A /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				554192712C7A46B000A9ED6A /* Poppins-Bold.ttf */,
-				554192722C7A46B000A9ED6A /* Poppins-Medium.ttf */,
-				554192732C7A46B000A9ED6A /* Poppins-Regular.ttf */,
-				554192742C7A46B000A9ED6A /* Poppins-SemiBold.ttf */,
+				554192402C7A1A7A00A9ED6A /* OnboardingModuleConfigurator.swift */,
 			);
-			path = Poppins;
+			path = Configurator;
 			sourceTree = "<group>";
 		};
-		554192772C7A46B000A9ED6A /* Fonts */ = {
+		554192442C7A1A7A00A9ED6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				554192752C7A46B000A9ED6A /* Poppins */,
-				554192762C7A46B000A9ED6A /* Fonts.swift */,
+				554192422C7A1A7A00A9ED6A /* OnboardingPageModel.swift */,
+				554192432C7A1A7A00A9ED6A /* OnboardingPresenterModel.swift */,
 			);
-			path = Fonts;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		554192452C7A1A7A00A9ED6A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				554192442C7A1A7A00A9ED6A /* Model */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		554192492C7A1A7A00A9ED6A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				554192452C7A1A7A00A9ED6A /* Support */,
+				554192482C7A1A7A00A9ED6A /* OnboardingPresenter.swift */,
+				554192462C7A1A7A00A9ED6A /* OnboardingModuleInput.swift */,
+				554192472C7A1A7A00A9ED6A /* OnboardingModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5541924C2C7A1A7A00A9ED6A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5541924A2C7A1A7A00A9ED6A /* OnboardingRouter.swift */,
+				5541924B2C7A1A7A00A9ED6A /* OnboardingRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5541924D2C7A1A7A00A9ED6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55D4A7B82C898676000100CE /* Collection */,
+				5541925C2C7A2AF500A9ED6A /* OnboardingViewController.swift */,
+				554192602C7A3D1300A9ED6A /* OnboardingView.swift */,
+				554192642C7A3F3600A9ED6A /* OnboardingViewDelegate.swift */,
+				5541928A2C7AB1CB00A9ED6A /* OnboardingViewInput.swift */,
+				554192882C7AB1C000A9ED6A /* OnboardingViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5541924E2C7A1A7A00A9ED6A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				554192412C7A1A7A00A9ED6A /* Configurator */,
+				554192492C7A1A7A00A9ED6A /* Presenter */,
+				5541924C2C7A1A7A00A9ED6A /* Router */,
+				5541924D2C7A1A7A00A9ED6A /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		554192812C7A490700A9ED6A /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				5541927D2C7A490700A9ED6A /* Poppins-Bold.ttf */,
+				5541927E2C7A490700A9ED6A /* Poppins-Medium.ttf */,
+				5541927F2C7A490700A9ED6A /* Poppins-Regular.ttf */,
+				554192802C7A490700A9ED6A /* Poppins-SemiBold.ttf */,
+			);
+			path = Poppins;
 			sourceTree = "<group>";
 		};
 		558AE7B42C64CEC70031E58D = {
@@ -269,6 +385,8 @@
 			children = (
 				558AE7BF2C64CEC70031E58D /* JobSearch */,
 				558AE7BE2C64CEC70031E58D /* Products */,
+				D7FA92430948576AD9C71DF1 /* Pods */,
+				50F8E3AC442376970E1283AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,9 +416,10 @@
 		558AE7D42C64CF060031E58D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				558AE7C92C64CECA0031E58D /* Assets.xcassets */,
 				558AE7D62C64D0120031E58D /* Strings */,
 				558AE7DB2C64D02E0031E58D /* Images */,
-				554192772C7A46B000A9ED6A /* Fonts */,
+				558AE7DE2C64D0490031E58D /* Fonts */,
 				558AE7E12C64D0640031E58D /* Colors */,
 			);
 			path = Resources;
@@ -329,10 +448,18 @@
 		558AE7DB2C64D02E0031E58D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				558AE7C92C64CECA0031E58D /* Assets.xcassets */,
 				558AE7DC2C64D03C0031E58D /* Assets.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		558AE7DE2C64D0490031E58D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				554192812C7A490700A9ED6A /* Poppins */,
+				558AE7DF2C64D0530031E58D /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		558AE7E12C64D0640031E58D /* Colors */ = {
@@ -343,6 +470,32 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		55D4A7B82C898676000100CE /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				55D4A7B92C8986D5000100CE /* OnboardingCollectionView.swift */,
+				55D4A7BB2C898767000100CE /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		55D4A7BD2C8AF76B000100CE /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				55D4A7BE2C8AF791000100CE /* JSPageControl.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		D7FA92430948576AD9C71DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B8B6BF12D86C57105D1D0 /* Pods-JobSearch.debug.xcconfig */,
+				60D79FF270B0F26D161831AF /* Pods-JobSearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,16 +503,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 558AE7D12C64CECA0031E58D /* Build configuration list for PBXNativeTarget "JobSearch" */;
 			buildPhases = (
+				72A4D813056FC12E31301240 /* [CP] Check Pods Manifest.lock */,
 				558AE7B92C64CEC70031E58D /* Sources */,
 				558AE7BA2C64CEC70031E58D /* Frameworks */,
 				558AE7BB2C64CEC70031E58D /* Resources */,
-				558AE7E42C64D10C0031E58D /* ShellScript */,
+				A5C36C927B18B667C13DE839 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JobSearch;
+			packageProductDependencies = (
+			);
 			productName = JobSearch;
 			productReference = 558AE7BD2C64CEC70031E58D /* JobSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -389,6 +545,8 @@
 				ru,
 			);
 			mainGroup = 558AE7B42C64CEC70031E58D;
+			packageReferences = (
+			);
 			productRefGroup = 558AE7BE2C64CEC70031E58D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -404,35 +562,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				558AE7CA2C64CECA0031E58D /* Assets.xcassets in Resources */,
-				5541927B2C7A46B000A9ED6A /* Poppins-SemiBold.ttf in Resources */,
+				554192852C7A490700A9ED6A /* Poppins-SemiBold.ttf in Resources */,
 				5541921A2C7236E900A9ED6A /* Localizable.strings in Resources */,
 				558AE7CD2C64CECA0031E58D /* Base in Resources */,
-				5541927A2C7A46B000A9ED6A /* Poppins-Regular.ttf in Resources */,
-				554192782C7A46B000A9ED6A /* Poppins-Bold.ttf in Resources */,
-				554192792C7A46B000A9ED6A /* Poppins-Medium.ttf in Resources */,
+				554192842C7A490700A9ED6A /* Poppins-Regular.ttf in Resources */,
+				554192822C7A490700A9ED6A /* Poppins-Bold.ttf in Resources */,
+				554192832C7A490700A9ED6A /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		558AE7E42C64D10C0031E58D /* ShellScript */ = {
+		72A4D813056FC12E31301240 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobSearch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]\nthen\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif command -v swiftlint >/dev/null 2>&1\nthen\n    swiftlint\nelse\n    echo \"warning: `swiftlint` command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C36C927B18B667C13DE839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobSearch/Pods-JobSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobSearch/Pods-JobSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobSearch/Pods-JobSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -442,27 +621,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				558AE7C12C64CEC70031E58D /* AppDelegate.swift in Sources */,
+				55D4A7BF2C8AF791000100CE /* JSPageControl.swift in Sources */,
+				5541924F2C7A1A7A00A9ED6A /* OnboardingModuleConfigurator.swift in Sources */,
 				554192132C718EE100A9ED6A /* JSTabBar.swift in Sources */,
+				554192522C7A1A7A00A9ED6A /* OnboardingModuleInput.swift in Sources */,
 				554192172C72333800A9ED6A /* JSTabBarModel.swift in Sources */,
 				554192272C79DD3F00A9ED6A /* DataStorage.swift in Sources */,
+				554192872C7A52C400A9ED6A /* ButtonFactory.swift in Sources */,
+				554192672C7A412900A9ED6A /* LabelFactory.swift in Sources */,
 				554191F82C7187C700A9ED6A /* HomeModuleConfigurator.swift in Sources */,
+				55D4A7BC2C898767000100CE /* OnboardingCollectionViewCell.swift in Sources */,
 				554192092C7188B300A9ED6A /* HomeViewInput.swift in Sources */,
-				5541927C2C7A46B000A9ED6A /* Fonts.swift in Sources */,
+				554192512C7A1A7A00A9ED6A /* OnboardingPresenterModel.swift in Sources */,
 				558AE7DA2C64D0230031E58D /* Strings.swift in Sources */,
+				554192652C7A3F3600A9ED6A /* OnboardingViewDelegate.swift in Sources */,
+				554192562C7A1A7A00A9ED6A /* OnboardingRouterInput.swift in Sources */,
 				554192002C71880600A9ED6A /* HomePresenter.swift in Sources */,
 				5541920B2C7188BD00A9ED6A /* HomeViewOutput.swift in Sources */,
 				554192042C71882600A9ED6A /* HomeModuleOutput.swift in Sources */,
 				558AE7E32C64D0710031E58D /* Colors.swift in Sources */,
 				554192072C71887F00A9ED6A /* HomeViewController.swift in Sources */,
+				55D4A7BA2C8986D5000100CE /* OnboardingCollectionView.swift in Sources */,
+				554192502C7A1A7A00A9ED6A /* OnboardingPageModel.swift in Sources */,
 				558AE7DD2C64D03C0031E58D /* Assets.swift in Sources */,
 				554191FE2C7187F900A9ED6A /* HomePresenterModel.swift in Sources */,
+				554192532C7A1A7A00A9ED6A /* OnboardingModuleOutput.swift in Sources */,
 				554192212C7784AD00A9ED6A /* JSCoordinator.swift in Sources */,
+				558AE7E02C64D0530031E58D /* Fonts.swift in Sources */,
 				554192022C71880D00A9ED6A /* HomeModuleInput.swift in Sources */,
+				5541928B2C7AB1CB00A9ED6A /* OnboardingViewInput.swift in Sources */,
+				554192892C7AB1C000A9ED6A /* OnboardingViewOutput.swift in Sources */,
 				554191FC2C7187EC00A9ED6A /* HomeRouterInput.swift in Sources */,
 				5541921F2C77846A00A9ED6A /* Coordinator.swift in Sources */,
+				554192552C7A1A7A00A9ED6A /* OnboardingRouter.swift in Sources */,
+				554192612C7A3D1300A9ED6A /* OnboardingView.swift in Sources */,
 				554192112C718ECC00A9ED6A /* JSTabBarController.swift in Sources */,
+				5541925D2C7A2AF500A9ED6A /* OnboardingViewController.swift in Sources */,
 				554191EB2C7186BC00A9ED6A /* ModuleTransitionable.swift in Sources */,
+				5597A69D2C8C56E8006DE189 /* PageControlFactory.swift in Sources */,
 				554191FA2C7187D800A9ED6A /* HomeRouter.swift in Sources */,
+				554192542C7A1A7A00A9ED6A /* OnboardingPresenter.swift in Sources */,
 				554192232C7789E000A9ED6A /* HomeView.swift in Sources */,
 				558AE7C32C64CEC70031E58D /* SceneDelegate.swift in Sources */,
 			);
@@ -544,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -602,7 +800,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -614,6 +812,7 @@
 		};
 		558AE7D22C64CECA0031E58D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3B8B6BF12D86C57105D1D0 /* Pods-JobSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -626,7 +825,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,6 +841,7 @@
 		};
 		558AE7D32C64CECA0031E58D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D79FF270B0F26D161831AF /* Pods-JobSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -654,7 +854,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
