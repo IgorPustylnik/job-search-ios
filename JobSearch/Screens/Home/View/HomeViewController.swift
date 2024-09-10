@@ -8,15 +8,15 @@
 import UIKit
 
 class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable {
-    
+
     // MARK: - Properties
-    
+
     private var homeView = HomeView()
-    
+
     var output: HomeViewOutput?
-    
+
     // MARK: - Lifecycle
-    
+
     override func loadView() {
         view = homeView
     }
@@ -24,5 +24,4 @@ class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }

@@ -6,12 +6,13 @@
 //
 
 import Foundation
+import SnapKit
 import UIKit
 
 final class HomeView: UIView {
-    
+
     // MARK: - UI Components
-    
+
     private lazy var testLabel: UILabel = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.text = "Test"
@@ -19,28 +20,26 @@ final class HomeView: UIView {
         $0.textColor = .black
         return $0
     }(UILabel())
-    
+
     override init(frame: CGRect) {
         super.init(frame: .zero)
         setupUI()
     }
-    
+
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+
     private func addSubviews() {
         addSubview(testLabel)
     }
-    
+
     private func setupUI() {
         backgroundColor = .Jscolors.background
         addSubviews()
-        
-        NSLayoutConstraint.activate([
-            testLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-            testLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
-        ])
+
+        testLabel.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
     }
-    
 }

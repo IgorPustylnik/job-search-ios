@@ -1,5 +1,32 @@
 // MARK: - TabBar
+
 "Home"="Главная";
 "Messages"="Сообщения";
 "Favorites"="Избранное";
 "Notifications"="Уведомления";
+
+// MARK: - Onboarding
+
+// TODO: - Translate
+
+// Page 1
+"Search your job"="Найдите работу, которая подходит именно вам";
+"Figure out your top five priorities whether it is company culture, salary."="Определите свои пять основных приоритетов, будь то культура компании, зарплата.";
+
+// Page 2
+"Browse jobs list"="Смотрите список вакансий";
+"Our job list include several  industries, so you can find the best job for you."="Наш список вакансий включает несколько отраслей, так что вы можете найти лучшую работу для себя.";
+
+// Page 3
+"Apply to best jobs"="Подавайте заявки на лучшие вакансии";
+"You can apply to your desirable jobs very quickly and easily with ease."="Вы можете подать заявку на желаемые вакансии очень быстро и легко.";
+
+// Page 4
+"Make your career"="Постройте свою карьеру";
+"We help you find your dream job based on your skillset, location, demand."="Мы помогаем вам найти работу мечты на основе ваших навыков, местоположения, спроса.";
+
+
+// Buttons
+"Next"="Далее";
+"Explore"="Начать";
+"Skip"="Пропустить";
