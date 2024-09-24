@@ -41,12 +41,13 @@ final class OnboardingCollectionView: UICollectionView {
     }
 
     func scrollTo(itemAt index: Int) {
+        guard let pagesModel else { return }
+        guard index < pagesModel.count else { return }
         isPagingEnabled = false
         let indexPath = IndexPath(item: index, section: 0)
         scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
         isPagingEnabled = true
     }
-
 }
 
 extension OnboardingCollectionView: UICollectionViewDataSource {

@@ -8,25 +8,26 @@
 import UIKit
 
 class JSTabBarController: UITabBarController, UITabBarControllerDelegate {
-    private var buttonContainer: UIView?
-
+    
+    private let jsTabBar = JSTabBar()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         delegate = self
-        let tabBar = JSTabBar()
-        setValue(tabBar, forKey: "tabBar")
-
         setupTabBar()
-        setupViewControllers()
     }
 
     private func setupTabBar() {
+        setValue(jsTabBar, forKey: "tabBar")
         tabBar.shadowImage = UIImage()
         tabBar.backgroundImage = UIImage()
     }
+}
 
-    private func setupViewControllers() {
-        viewControllers = JSTabBarModel().controllers
+extension JSTabBarController: MainViewInput {
+    
+    func setControllers(_ controllers: [UIViewController]) {
+        setViewControllers(controllers, animated: false)
     }
+    
 }

@@ -7,12 +7,17 @@
 
 import Foundation
 
-final class HomePresenter: HomeViewOutput, HomeModuleInput {
+final class HomePresenter: HomeViewOutput {
     
     // MARK: - Properties
 
     weak var view: HomeViewInput?
-    var router: HomeRouterInput?
     var output: HomeModuleOutput?
 
+}
+
+extension HomePresenter: HomeModuleInput {
+}
+
+extension HomePresenter: HomeModuleOutput {
 }

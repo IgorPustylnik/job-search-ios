@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable {
+class HomeViewController: UIViewController {
 
     // MARK: - Properties
 
@@ -24,4 +24,7 @@ class HomeViewController: UIViewController, HomeViewInput, ModuleTransitionable 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+}
+
+extension HomeViewController: HomeViewInput {
 }

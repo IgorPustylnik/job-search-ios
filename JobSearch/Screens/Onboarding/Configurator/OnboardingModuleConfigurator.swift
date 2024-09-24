@@ -12,18 +12,14 @@ final class OnboardingModuleConfigurator {
 
     // MARK: - Internal methods
 
-    func configure(output: OnboardingModuleOutput? = nil) -> UIViewController {
+    func configure() -> (vc: OnboardingViewController, output: OnboardingModuleOutput) {
         let view = OnboardingViewController()
         let presenter = OnboardingPresenter()
-        let router = OnboardingRouter()
 
         presenter.view = view
-        presenter.router = router
-        presenter.output = output
-        router.view = view
         view.output = presenter
 
-        return view
+        return (view, presenter)
     }
 
 }

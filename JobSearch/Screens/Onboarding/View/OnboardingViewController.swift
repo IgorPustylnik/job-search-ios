@@ -42,6 +42,7 @@ extension OnboardingViewController: OnboardingViewInput {
     }
     
     func setPage(index: Int, isLast: Bool) {
+        
         pageControl?.setPage(index)
         onboardingView?.scrollCollectionViewTo(itemAt: index)
         onboardingView?.setupState(isLastPage: isLast)
@@ -60,7 +61,4 @@ extension OnboardingViewController: OnboardingViewDelegate {
     func scrolledToPage(index: Int) {
         output?.setPage(index: index)
     }
-}
-
-extension OnboardingViewController: ModuleTransitionable {
 }
