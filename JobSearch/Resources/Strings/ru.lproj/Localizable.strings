@@ -1,32 +1,30 @@
 // MARK: - TabBar
 
-"Home"="Главная";
-"Messages"="Сообщения";
-"Favorites"="Избранное";
-"Notifications"="Уведомления";
+"HOME"="Home";
+"MESSAGES"="Сообщения";
+"FAVORITES"="Избранное";
+"NOTIFICATIONS"="Уведомления";
 
 // MARK: - Onboarding
 
-// TODO: - Translate
-
 // Page 1
-"Search your job"="Найдите работу, которая подходит именно вам";
-"Figure out your top five priorities whether it is company culture, salary."="Определите свои пять основных приоритетов, будь то культура компании, зарплата.";
+"ONBOARDING_PAGE1_TITLE"="Найдите работу";
+"ONBOARDING_PAGE1_DESCRIPTION"="Определите свои пять основных приоритетов, будь то культура компании, зарплата.";
 
 // Page 2
-"Browse jobs list"="Смотрите список вакансий";
-"Our job list include several  industries, so you can find the best job for you."="Наш список вакансий включает несколько отраслей, так что вы можете найти лучшую работу для себя.";
+"ONBOARDING_PAGE2_TITLE"="Смотрите вакансии";
+"ONBOARDING_PAGE2_DESCRIPTION"="Наш список вакансий включает несколько отраслей, так что вы можете найти лучшую работу для себя.";
 
 // Page 3
-"Apply to best jobs"="Подавайте заявки на лучшие вакансии";
-"You can apply to your desirable jobs very quickly and easily with ease."="Вы можете подать заявку на желаемые вакансии очень быстро и легко.";
+"ONBOARDING_PAGE3_TITLE"="Откликайтесь";
+"ONBOARDING_PAGE3_DESCRIPTION"="Вы можете подать заявку на желаемые вакансии очень быстро и легко.";
 
 // Page 4
-"Make your career"="Постройте свою карьеру";
-"We help you find your dream job based on your skillset, location, demand."="Мы помогаем вам найти работу мечты на основе ваших навыков, местоположения, спроса.";
+"ONBOARDING_PAGE4_TITLE"="Постройте карьеру";
+"ONBOARDING_PAGE4_DESCRIPTION"="Мы помогаем вам найти работу мечты на основе ваших навыков, местоположения, спроса.";
 
 
 // Buttons
-"Next"="Далее";
-"Explore"="Начать";
-"Skip"="Пропустить";
+"ONBOARDING_NEXT_BUTTON"="Далее";
+"ONBOARDING_EXPLORE_BUTTON"="Начать";
+"ONBOARDING_SKIP_BUTTON"="Пропустить";

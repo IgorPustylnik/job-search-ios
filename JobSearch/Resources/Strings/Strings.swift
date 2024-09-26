@@ -12,26 +12,26 @@ struct Strings {
         var title: String {
             switch self {
             case .page1:
-                return "Search your job".localized()
+                return "ONBOARDING_PAGE1_TITLE".localized()
             case .page2:
-                return "Browse jobs list".localized()
+                return "ONBOARDING_PAGE2_TITLE".localized()
             case .page3:
-                return "Apply to best jobs".localized()
+                return "ONBOARDING_PAGE3_TITLE".localized()
             case .page4:
-                return "Make your career".localized()
+                return "ONBOARDING_PAGE4_TITLE".localized()
             }
         }
 
         var description: String {
             switch self {
             case .page1:
-                return "Figure out your top five priorities whether it is company culture, salary.".localized()
+                return "ONBOARDING_PAGE1_DESCRIPTION".localized()
             case .page2:
-                return "Our job list include several industries, so you can find the best job for you.".localized()
+                return "ONBOARDING_PAGE2_DESCRIPTION".localized()
             case .page3:
-                return "You can apply to your desirable jobs very quickly and easily with ease.".localized()
+                return "ONBOARDING_PAGE3_DESCRIPTION".localized()
             case .page4:
-                return "We help you find your dream job based on your skillset, location, demand.".localized()
+                return "ONBOARDING_PAGE4_DESCRIPTION".localized()
             }
         }
     }
