@@ -43,11 +43,11 @@ struct OnboardingPresenterModel {
         var title: String {
             switch self {
             case .next:
-                "Next".localized()
+                "ONBOARDING_NEXT_BUTTON".localized()
             case .skip:
-                "Skip".localized()
+                "ONBOARDING_SKIP_BUTTON".localized()
             case .explore:
-                "Explore".localized()
+                "ONBOARDING_EXPLORE_BUTTON".localized()
             }
         }
     }

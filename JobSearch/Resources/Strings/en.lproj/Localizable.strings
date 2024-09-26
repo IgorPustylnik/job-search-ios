@@ -1,1 +1,30 @@
+// MARK: - TabBar
 
+"HOME"="Home";
+"MESSAGES"="Messages";
+"FAVORITES"="Favorites";
+"NOTIFICATIONS"="Notifications";
+
+// MARK: - Onboarding
+
+// Page 1
+"ONBOARDING_PAGE1_TITLE"="Search your job";
+"ONBOARDING_PAGE1_DESCRIPTION"="Figure out your top five priorities whether it is company culture, salary.";
+
+// Page 2
+"ONBOARDING_PAGE2_TITLE"="Browse jobs list";
+"ONBOARDING_PAGE2_DESCRIPTION"="Our job list include several  industries, so you can find the best job for you.";
+
+// Page 3
+"ONBOARDING_PAGE3_TITLE"="Apply to best jobs";
+"ONBOARDING_PAGE3_DESCRIPTION"="You can apply to your desirable jobs very quickly and easily with ease.";
+
+// Page 4
+"ONBOARDING_PAGE4_TITLE"="Make your career";
+"ONBOARDING_PAGE4_DESCRIPTION"="We help you find your dream job based on your skillset, location, demand.";
+
+
+// Buttons
+"ONBOARDING_NEXT_BUTTON"="Next";
+"ONBOARDING_EXPLORE_BUTTON"="Explore";
+"ONBOARDING_SKIP_BUTTON"="Skip";
