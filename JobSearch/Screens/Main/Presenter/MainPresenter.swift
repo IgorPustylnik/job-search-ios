@@ -14,6 +14,7 @@ final class MainPresenter {
     
     weak var view: MainViewInput?
     var output: MainModuleOutput?
+    var coordinator: CoordinatorProtocol?
     
     // MARK: - Private properties
     

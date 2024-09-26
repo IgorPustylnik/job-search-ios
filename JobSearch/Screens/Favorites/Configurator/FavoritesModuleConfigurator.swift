@@ -12,11 +12,12 @@ final class FavoritesModuleConfigurator {
 
     // MARK: - Internal methods
 
-    func configure() -> (vc: FavoritesViewController, output: FavoritesModuleOutput) {
+    func configure(_ coordinator: CoordinatorProtocol) -> (vc: FavoritesViewController, output: FavoritesModuleOutput) {
         let view = FavoritesViewController()
         let presenter = FavoritesPresenter()
 
         presenter.view = view
+        presenter.coordinator = coordinator
         view.output = presenter
 
         return (view, presenter)

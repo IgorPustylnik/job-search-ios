@@ -10,16 +10,8 @@ import UIKit
 
 final class MessagesCoordinator: Coordinator {
     
-    var childCoordinators: [Coordinator] = []
-    
-    var navigationController: UINavigationController
-    
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-    }
-    
-    func start() {
-        let module = MessagesModuleConfigurator().configure()
+    override func start() {
+        let module = MessagesModuleConfigurator().configure(self)
         let vc = module.vc
         
         navigationController.setViewControllers([vc], animated: false)

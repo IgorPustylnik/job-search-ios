@@ -13,6 +13,7 @@ final class OnboardingPresenter {
     
     weak var view: OnboardingViewInput?
     var output: OnboardingModuleOutput?
+    var coordinator: CoordinatorProtocol?
     
     // MARK: - Private properties
     
@@ -22,7 +23,7 @@ final class OnboardingPresenter {
         didSet {
             guard let currentPage else { return }
             if currentPage == pagesModel.count {
-//                output?.completeOnboarding()
+                coordinator?.finish()
                 return
             }
             view?.setPage(index: currentPage, isLast: currentPage == pagesModel.count - 1)

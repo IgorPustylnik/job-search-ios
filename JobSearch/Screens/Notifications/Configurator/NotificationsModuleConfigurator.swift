@@ -12,11 +12,12 @@ final class NotificationsModuleConfigurator {
 
     // MARK: - Internal methods
 
-    func configure() -> (vc: NotificationsViewController, output: NotificationsModuleOutput) {
+    func configure(_ coordinator: CoordinatorProtocol) -> (vc: NotificationsViewController, output: NotificationsModuleOutput) {
         let view = NotificationsViewController()
         let presenter = NotificationsPresenter()
 
         presenter.view = view
+        presenter.coordinator = coordinator
         view.output = presenter
 
         return (view, presenter)

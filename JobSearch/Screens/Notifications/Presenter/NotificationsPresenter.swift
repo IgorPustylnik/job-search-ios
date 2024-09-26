@@ -13,6 +13,7 @@ final class NotificationsPresenter: NotificationsViewOutput, NotificationsModule
     // MARK: - Properties
 
     weak var view: NotificationsViewInput?
+    var coordinator: CoordinatorProtocol?
 
     // MARK: - NotificationsViewOutput
 

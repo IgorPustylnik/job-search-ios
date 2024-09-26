@@ -13,6 +13,7 @@ final class FavoritesPresenter: FavoritesViewOutput, FavoritesModuleInput, Favor
     // MARK: - Properties
 
     weak var view: FavoritesViewInput?
+    var coordinator: CoordinatorProtocol?
 
     // MARK: - FavoritesViewOutput
 

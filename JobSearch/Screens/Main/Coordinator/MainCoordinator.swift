@@ -9,18 +9,14 @@ import Foundation
 import UIKit
 
 final class MainCoordinator: Coordinator {
-    var childCoordinators: [Coordinator] = []
 
-    var navigationController: UINavigationController
-
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-        
+    override init(navigationController: UINavigationController, finishDelegate: CoordinatorFinishDelegate? = nil) {
+        super.init(navigationController: navigationController, finishDelegate: finishDelegate)
         navigationController.isNavigationBarHidden = true
     }
 
-    func start() {
-        let module = MainConfigurator().configure()
+    override func start() {
+        let module = MainModuleConfigurator().configure(self)
         let tabBarController = module.vc
 
         let homeNavigationController = UINavigationController()
@@ -56,13 +52,13 @@ final class MainCoordinator: Coordinator {
         favoritesCoordinator.start()
         notificationsCoordinator.start()
 
-        let coordinators: [Coordinator] = [
+        let coordinators: [CoordinatorProtocol] = [
             homeCoordinator, 
             messagesCoordinator,
             favoritesCoordinator, 
             notificationsCoordinator
         ]
-        coordinators.forEach { childCoordinators.append($0) }
+        coordinators.forEach { self.addChild(coordinator: $0) }
 
         tabBarController.setControllers([
             homeNavigationController,

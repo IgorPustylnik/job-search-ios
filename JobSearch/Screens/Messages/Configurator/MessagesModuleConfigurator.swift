@@ -12,11 +12,12 @@ final class MessagesModuleConfigurator {
 
     // MARK: - Internal methods
 
-    func configure() -> (vc: MessagesViewController, output: MessagesModuleOutput) {
+    func configure(_ coordinator: CoordinatorProtocol) -> (vc: MessagesViewController, output: MessagesModuleOutput) {
         let view = MessagesViewController()
         let presenter = MessagesPresenter()
 
         presenter.view = view
+        presenter.coordinator = coordinator
         view.output = presenter
 
         return (view, presenter)

@@ -13,6 +13,7 @@ final class HomePresenter: HomeViewOutput {
 
     weak var view: HomeViewInput?
     var output: HomeModuleOutput?
+    var coordinator: CoordinatorProtocol?
 
 }
 

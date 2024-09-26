@@ -13,6 +13,7 @@ final class MessagesPresenter: MessagesViewOutput, MessagesModuleInput, Messages
     // MARK: - Properties
 
     weak var view: MessagesViewInput?
+    var coordinator: CoordinatorProtocol?
 
     // MARK: - MessagesViewOutput
 
