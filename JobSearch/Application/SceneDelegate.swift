@@ -9,14 +9,14 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
-    var coordinator: Coordinator?
+    var coordinator: CoordinatorProtocol?
 
     func scene(_ scene: UIScene,
                willConnectTo session: UISceneSession,
                options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        coordinator = JSCoordinator(
+        coordinator = AppCoordinator(
             navigationController: UINavigationController(),
             window: window
         )

@@ -8,7 +8,4 @@
 import Foundation
 
 protocol OnboardingModuleOutput: AnyObject {
-    
-    func completeOnboarding()
-    
 }

@@ -12,18 +12,15 @@ final class HomeModuleConfigurator {
 
     // MARK: - Internal methods
 
-    func configure(output: HomeModuleOutput? = nil) -> UIViewController {
+    func configure(_ coordinator: CoordinatorProtocol) -> (vc: HomeViewController, output: HomeModuleOutput) {
         let view = HomeViewController()
         let presenter = HomePresenter()
-        let router = HomeRouter()
 
         presenter.view = view
-        presenter.router = router
-        presenter.output = output
-        router.view = view
+        presenter.coordinator = coordinator
         view.output = presenter
 
-        return view
+        return (view, presenter)
     }
 
 }

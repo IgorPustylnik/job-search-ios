@@ -12,8 +12,8 @@ final class OnboardingPresenter {
     // MARK: - Properties
     
     weak var view: OnboardingViewInput?
-    var router: OnboardingRouterInput?
     var output: OnboardingModuleOutput?
+    var coordinator: CoordinatorProtocol?
     
     // MARK: - Private properties
     
@@ -23,14 +23,14 @@ final class OnboardingPresenter {
         didSet {
             guard let currentPage else { return }
             if currentPage == pagesModel.count {
-                output?.completeOnboarding()
+                coordinator?.finish()
                 return
             }
             view?.setPage(index: currentPage, isLast: currentPage == pagesModel.count - 1)
         }
     }
 }
-
+    
 // MARK: - View output
 
 extension OnboardingPresenter: OnboardingViewOutput {
@@ -45,7 +45,7 @@ extension OnboardingPresenter: OnboardingViewOutput {
     }
 
     func pressedSkip() {
-        output?.completeOnboarding()
+//        output?.completeOnboarding()
     }
     
     func setPage(index: Int) {
@@ -56,4 +56,7 @@ extension OnboardingPresenter: OnboardingViewOutput {
 // MARK: Module input
 
 extension OnboardingPresenter: OnboardingModuleInput {
+}
+
+extension OnboardingPresenter: OnboardingModuleOutput {    
 }
