@@ -41,7 +41,7 @@ final class OnboardingCollectionViewCell: UICollectionViewCell {
         addSubview(descriptionLabel)
         
         descriptionLabel.snp.makeConstraints { make in
-            make.top.equalTo(snp.bottom).offset(-102)
+            make.top.equalTo(snp.bottom).offset(-160)
             make.height.equalTo(90)
             make.centerX.equalToSuperview()
             make.leading.equalToSuperview().offset(40)
